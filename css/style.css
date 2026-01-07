@@ -1,0 +1,121 @@
+/* =========================================
+   FORCE DARK GREEN THEME – ARITECH
+   Override Bootstrap TOTAL
+========================================= */
+
+.navbar.scrolled .navbar-brand svg rect {
+  fill: #0f766e; /* hijau gelap */
+}
+
+/* GLOBAL */
+html, body {
+  background-color: #052e1f !important;
+  color: #dcfce7 !important;
+  min-height: 100%;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(135deg, #064635, #0f5132) !important;
+  border-bottom: 1px solid #14532d;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #dcfce7 !important;
+}
+
+.navbar .nav-link.active {
+  color: #86efac !important;
+}
+
+/* CARD – HILANGKAN PUTIH */
+.card,
+.modal-content,
+.stat-box {
+  background-color: #064635 !important;
+  color: #dcfce7 !important;
+  border: 1px solid #14532d;
+  box-shadow: 0 15px 35px rgba(0,0,0,.5);
+  border-radius: 16px;
+}
+
+/* TEXT */
+.text-muted {
+  color: #a7f3d0 !important;
+}
+
+.text-primary {
+  color: #22c55e !important;
+}
+
+/* BUTTON */
+.btn-primary {
+  background-color: #16a34a !important;
+  border: none;
+  color: #052e1f !important;
+}
+
+.btn-primary:hover {
+  background-color: #22c55e !important;
+}
+
+.btn-outline-primary {
+  border-color: #22c55e !important;
+  color: #22c55e !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #14532d !important;
+  color: #dcfce7 !important;
+}
+
+/* BUTTON LIGHT (INI BIANG PUTIH) */
+.btn-light {
+  background-color: #16a34a !important;
+  color: #052e1f !important;
+  border: none;
+}
+
+/* CTA */
+.bg-primary {
+  background: linear-gradient(135deg, #064635, #052e1f) !important;
+  color: #dcfce7 !important;
+  border: 1px solid #14532d;
+}
+
+/* IMAGE */
+img {
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #031b12 !important;
+  color: #a7f3d0 !important;
+  border-top: 1px solid #14532d;
+}
+
+/* =========================================
+   FIX STAT BOX ALIGNMENT
+========================================= */
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* tengah vertikal */
+  align-items: center;       /* tengah horizontal */
+  min-height: 140px;         /* samakan tinggi */
+  text-align: center;
+}
+
+.stat-box .display-6 {
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.stat-box .small {
+  letter-spacing: 0.5px;
+}
+
