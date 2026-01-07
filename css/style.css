@@ -1,7 +1,4 @@
-/* =========================================
-   FORCE DARK GREEN THEME – ARITECH
-   Override Bootstrap TOTAL
-========================================= */
+
 
 .navbar.scrolled .navbar-brand svg rect {
   fill: #0f766e; /* hijau gelap */
@@ -118,4 +115,5 @@ footer {
 .stat-box .small {
   letter-spacing: 0.5px;
 }
+
 
